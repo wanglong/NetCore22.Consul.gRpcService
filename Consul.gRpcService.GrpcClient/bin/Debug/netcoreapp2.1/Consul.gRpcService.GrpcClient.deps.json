@@ -1,0 +1,555 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "daf5deb9c6f01a4109c7d51f7127a103cacb4296"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Consul.gRpcService.GrpcClient/1.0.0": {
+        "dependencies": {
+          "Consul.gRpcService.Protocol": "1.0.0",
+          "Grpc.Core": "1.19.0",
+          "Microsoft.Extensions.Configuration": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Configuration.Json": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.DependencyInjection": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Options": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Options.ConfigurationExtensions": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "Consul.gRpcService.GrpcClient.dll": {}
+        }
+      },
+      "Google.Protobuf/3.7.0": {
+        "runtime": {
+          "lib/netstandard1.0/Google.Protobuf.dll": {
+            "assemblyVersion": "3.7.0.0",
+            "fileVersion": "3.7.0.0"
+          }
+        }
+      },
+      "Grpc.Core/1.19.0": {
+        "dependencies": {
+          "Grpc.Core.Api": "1.19.0",
+          "System.Interactive.Async": "3.2.0",
+          "System.Runtime.Loader": "4.0.0",
+          "System.Threading.Thread": "4.0.0",
+          "System.Threading.ThreadPool": "4.0.10"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Grpc.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.19.0.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux/native/libgrpc_csharp_ext.x64.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/linux/native/libgrpc_csharp_ext.x86.so": {
+            "rid": "linux",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x64.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx/native/libgrpc_csharp_ext.x86.dylib": {
+            "rid": "osx",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x64.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win/native/grpc_csharp_ext.x86.dll": {
+            "rid": "win",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Grpc.Core.Api/1.19.0": {
+        "dependencies": {
+          "System.Interactive.Async": "3.2.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/Grpc.Core.Api.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Binder/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.FileExtensions/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.FileProviders.Physical": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.FileExtensions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Json/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Configuration.FileExtensions": "3.0.0-preview3.19153.1",
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Json.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview3.19153.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Abstractions/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileProviders.Physical/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.FileProviders.Abstractions": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.FileSystemGlobbing": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileProviders.Physical.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.FileSystemGlobbing/3.0.0-preview3.19153.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.FileSystemGlobbing.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Primitives": "3.0.0-preview3.19153.1",
+          "System.ComponentModel.Annotations": "4.6.0-preview3.19128.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Options.ConfigurationExtensions/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Configuration.Binder": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.0.0-preview3.19153.1",
+          "Microsoft.Extensions.Options": "3.0.0-preview3.19153.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/3.0.0-preview3.19153.1": {
+        "dependencies": {
+          "System.Memory": "4.5.2",
+          "System.Runtime.CompilerServices.Unsafe": "4.6.0-preview3.19128.7"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.19.15301"
+          }
+        }
+      },
+      "Newtonsoft.Json/11.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.2.21924"
+          }
+        }
+      },
+      "System.ComponentModel.Annotations/4.6.0-preview3.19128.7": {},
+      "System.Interactive.Async/3.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Interactive.Async.dll": {
+            "assemblyVersion": "3.2.0.0",
+            "fileVersion": "3.2.0.702"
+          }
+        }
+      },
+      "System.IO/4.1.0": {
+        "dependencies": {
+          "System.Runtime": "4.1.0",
+          "System.Text.Encoding": "4.0.11",
+          "System.Threading.Tasks": "4.0.11"
+        }
+      },
+      "System.Memory/4.5.2": {},
+      "System.Reflection/4.1.0": {
+        "dependencies": {
+          "System.IO": "4.1.0",
+          "System.Reflection.Primitives": "4.0.1",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Reflection.Primitives/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime/4.1.0": {},
+      "System.Runtime.CompilerServices.Unsafe/4.6.0-preview3.19128.7": {
+        "runtime": {
+          "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {
+            "assemblyVersion": "4.0.5.0",
+            "fileVersion": "4.7.19.12807"
+          }
+        }
+      },
+      "System.Runtime.Handles/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime.Loader/4.0.0": {
+        "dependencies": {
+          "System.IO": "4.1.0",
+          "System.Reflection": "4.1.0",
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Text.Encoding/4.0.11": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Threading.Tasks/4.0.11": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Threading.Thread/4.0.0": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Threading.ThreadPool/4.0.10": {
+        "dependencies": {
+          "System.Runtime": "4.1.0",
+          "System.Runtime.Handles": "4.0.1"
+        }
+      },
+      "Consul.gRpcService.Protocol/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.7.0",
+          "Grpc.Core": "1.19.0"
+        },
+        "runtime": {
+          "Consul.gRpcService.Protocol.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Consul.gRpcService.GrpcClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Google.Protobuf/3.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iGSH+kB233wWy4VjEC+7KrMJTD3K7Nw2VpnboSgbyU1SrCQZUVpKdJ7NKDZVL7JvFYBiUq4VRMgC0OAXxJAvjA==",
+      "path": "google.protobuf/3.7.0",
+      "hashPath": "google.protobuf.3.7.0.nupkg.sha512"
+    },
+    "Grpc.Core/1.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gqOrUiRKbSfRU8FySvvTr+04mliwQdimirfloBYjiHw5HhwBpYUown8NgEoki1G3iYUuymg6RrB1nXwx8wz54g==",
+      "path": "grpc.core/1.19.0",
+      "hashPath": "grpc.core.1.19.0.nupkg.sha512"
+    },
+    "Grpc.Core.Api/1.19.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f+4Bkzr+MxKqyxqR4rQSOB3gdRspTmrV7NcdrgMbUY7qeFDF3Hfnuop3xIpTuNdRaQLgopiTvo1+lHyHpuEZLQ==",
+      "path": "grpc.core.api/1.19.0",
+      "hashPath": "grpc.core.api.1.19.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-P9T8vC9ZdvwIztINHKzmrPyJTjbKEbGwcGc76IMuFzELteFEDcbjXZ7KVwzK1mo1qGhn4AfrIRZC3R/5m1L27A==",
+      "path": "microsoft.extensions.configuration/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.configuration.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HyaispbUEI03WCxJLAS662dHSzhl0LAqQZ1sDrNlQ5cqBHfRw9AIqkHzkU59IVESGHG4HRjPmApJHQh5XmaySQ==",
+      "path": "microsoft.extensions.configuration.abstractions/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.configuration.abstractions.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Binder/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2DPoK6jRuvb5iJ9M9lbN/4d5mf13GZDzwj/0NooRYD/kepB60HaSux0VFcaK7ZBE5siDZMAfGmk4q3lIwQAhTQ==",
+      "path": "microsoft.extensions.configuration.binder/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.configuration.binder.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.FileExtensions/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jWqzy83TfkrL7O/cw/9egNq26OwVdPb6GcaOMeGXcOphwDbXgCaqAaSQIdApIpdJ/7JeCqnC20stajmqsjxXng==",
+      "path": "microsoft.extensions.configuration.fileextensions/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.configuration.fileextensions.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Json/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SI1bGNcjh8DyvV+JZGRNskqUdDpKl1Xsa8RqIRFAov88aeojtyqDm4eoSjT7fq9w8RtVIMzBR6p20JnuRJPvXg==",
+      "path": "microsoft.extensions.configuration.json/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.configuration.json.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1j/yGtm9XhOC1UnEcdLQDt0DgaBvrPxyaQa7pN6k/XTq5ABbefmUeO93R5Wni5+mJDHPMrTtg76RaCh57tJVcw==",
+      "path": "microsoft.extensions.dependencyinjection/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ejNOvE30tkp2nnKK82KVOvN7qalzrf5QZMEixuJ6f6BiQ5LqpOIbwSyCIMS1iI5rwgq+efbZfnehUF703SIzZQ==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Abstractions/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EagM4gLNMCkzb8S7/BLaKiTfZAfdnHdXTIeoAiokWMIy5rMooUHyow0oDzaABe/yGz7VGrMeSQW5X9U97Of/OQ==",
+      "path": "microsoft.extensions.fileproviders.abstractions/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.fileproviders.abstractions.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileProviders.Physical/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vVu0ftWgzBsO/WyJHSABUBXMg0+04CoJfetYFoWNNyWSIGhcBck1UZxycFE1vmQPj8Td4RB3tsLHQYeQdqtmtA==",
+      "path": "microsoft.extensions.fileproviders.physical/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.fileproviders.physical.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.FileSystemGlobbing/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ixyuKklrQ/+NFMvefgz60P+BEIEPuZFuY/BAeIxJGwDkwDU2jjjYknERhAOKS57HH9JT0Ad979Bpw4kchrb9wA==",
+      "path": "microsoft.extensions.filesystemglobbing/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.filesystemglobbing.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q1kVpWecrqrngCqV0iQFl6LmCpFcMimf2i3uLn7dfFb4ItsSs/OCWSS7s8htnqypEu//FdmTIjZOaAQQLCGUBQ==",
+      "path": "microsoft.extensions.options/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.options.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Options.ConfigurationExtensions/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9sb0jNTPiEqbUqkO6/21sKijgZMqOsZYgHaLxVLzUkxgMloRrZ1NYGQJtTAYmRGjsQetvkfoNOC5nKW1dMJt9w==",
+      "path": "microsoft.extensions.options.configurationextensions/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.options.configurationextensions.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/3.0.0-preview3.19153.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-suwKnoXLCu1TZwAcSbStZxIHlZq+x3y/FsFiMmzXkVzwrJ20Lr3JSRSaUiv3rDPvmNWst5+1Pd1FFR8uvRHukg==",
+      "path": "microsoft.extensions.primitives/3.0.0-preview3.19153.1",
+      "hashPath": "microsoft.extensions.primitives.3.0.0-preview3.19153.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/11.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
+      "path": "newtonsoft.json/11.0.2",
+      "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "System.ComponentModel.Annotations/4.6.0-preview3.19128.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-a6NzJ9sb8VoQwaYFT17gsGxRraQgSDcSkc6z/8UHVyY5rcg4W9oI41JqpjIrGKy3DZCeoEzyK8RcrjjD0kQV7g==",
+      "path": "system.componentmodel.annotations/4.6.0-preview3.19128.7",
+      "hashPath": "system.componentmodel.annotations.4.6.0-preview3.19128.7.nupkg.sha512"
+    },
+    "System.Interactive.Async/3.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T3nigy9yShklMyVu7I2TvlVMRy2vUn9oQeBaRy0KZcOptyy+rUbekYaXxoa3s0h2tWT3UVtzrGkQC89CBbCtlg==",
+      "path": "system.interactive.async/3.2.0",
+      "hashPath": "system.interactive.async.3.2.0.nupkg.sha512"
+    },
+    "System.IO/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YNg5++BqpHIMXu3ZeOY0o5wpDnmb1Nbd8M9NIHplRzn63MtuCoqUfEpb1teSRweITYhkMmBeJI0rq4oxSZt6hA==",
+      "path": "system.io/4.1.0",
+      "hashPath": "system.io.4.1.0.nupkg.sha512"
+    },
+    "System.Memory/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Ohf9h6em5CjPaAzupGtW/TWMzX6aVfIGPh7bq5KQmfvYJr+DqvOa0cRS9ggFKGIuvKTModCQEacGC/CwE8j7cg==",
+      "path": "system.memory/4.5.2",
+      "hashPath": "system.memory.4.5.2.nupkg.sha512"
+    },
+    "System.Reflection/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sdkhN8ROIH9cp+eWnlWqO6VqbSMRULSjuGAsbbi9yzzg/YytgkKCqEjD9GiSxAXWRqUu44DuNTJL4vjWxORblw==",
+      "path": "system.reflection/4.1.0",
+      "hashPath": "system.reflection.4.1.0.nupkg.sha512"
+    },
+    "System.Reflection.Primitives/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OBXIlhDNs3sc4yIDOtPcSFQDaD19rmNqhcMwvLEsPRM6RAh/0OZGV1FBgWpi/lSdZx/iC/xcrbFDy7jJIK960Q==",
+      "path": "system.reflection.primitives/4.0.1",
+      "hashPath": "system.reflection.primitives.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pDVbNeX/UfZ+F+wLBPdwEdEVSR3S2CRCrDzZ4RqmfCERePUveNrRChYq+MyM6ywdCp1igg5xxae4TMqzvAhWJQ==",
+      "path": "system.runtime/4.1.0",
+      "hashPath": "system.runtime.4.1.0.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.6.0-preview3.19128.7": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-viWo540/lOqsWNW50LJnw2rQBYYgJTENNh5OO+Bf9uXLnX/RUg9PdPlUS4/sE2j24va1AETO2OMiHOUek9iZDw==",
+      "path": "system.runtime.compilerservices.unsafe/4.6.0-preview3.19128.7",
+      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0-preview3.19128.7.nupkg.sha512"
+    },
+    "System.Runtime.Handles/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GvTd2o2Z5wMK4j03i+iX/6oNR31tBOb0MDXHaIEReXWf7jGquo7ATNz2quc0dmU2QBKtEK7a2npGCL2Y+VbBmQ==",
+      "path": "system.runtime.handles/4.0.1",
+      "hashPath": "system.runtime.handles.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime.Loader/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T5xSPYPdYzYrZokSR33YPR8T6ObJnE6armRpafR2M/zzzBG72/A7ueBlu+a4e67i2zWatkp7UhncX7E3c+sbKw==",
+      "path": "system.runtime.loader/4.0.0",
+      "hashPath": "system.runtime.loader.4.0.0.nupkg.sha512"
+    },
+    "System.Text.Encoding/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v9hbVDGxV94VRlvhqNGLAzM6io3KSGI6t0siZOe1nF5azHIw5gliSiktJji8c7s9hGtgHtn5+t9deGNz09v5cw==",
+      "path": "system.text.encoding/4.0.11",
+      "hashPath": "system.text.encoding.4.0.11.nupkg.sha512"
+    },
+    "System.Threading.Tasks/4.0.11": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bczbLylS6pDtNSqz5asPcPiLjvJQYVaMb/HDgHoKccEPUycP+BjoUYxt/rtu7YafXgvwJ4wP1Yh6nj1rZPVWEA==",
+      "path": "system.threading.tasks/4.0.11",
+      "hashPath": "system.threading.tasks.4.0.11.nupkg.sha512"
+    },
+    "System.Threading.Thread/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WAHvm/Ps0coN/TsNBi6ZWpw+UZTOHTAN2NfRxapTgqgWbZK3ucQ/M+ELErEFZMR+fXGEAvZChPatGncdWKuMww==",
+      "path": "system.threading.thread/4.0.0",
+      "hashPath": "system.threading.thread.4.0.0.nupkg.sha512"
+    },
+    "System.Threading.ThreadPool/4.0.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-l0CFQR+X32763aO/Cdj0HvYN8STCFz5QJZJXXZx+auHBRYhFI9rWMVqfIr50aP/mjlTOG+SYz4+9YWS2yYUjMA==",
+      "path": "system.threading.threadpool/4.0.10",
+      "hashPath": "system.threading.threadpool.4.0.10.nupkg.sha512"
+    },
+    "Consul.gRpcService.Protocol/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

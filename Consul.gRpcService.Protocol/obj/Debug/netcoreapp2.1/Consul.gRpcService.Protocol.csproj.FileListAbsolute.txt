@@ -1,0 +1,8 @@
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.deps.json
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\obj\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.csproj.CoreCompileInputs.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\obj\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.AssemblyInfoInputs.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\obj\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.AssemblyInfo.cs
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.pdb
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\obj\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Protocol\obj\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.pdb

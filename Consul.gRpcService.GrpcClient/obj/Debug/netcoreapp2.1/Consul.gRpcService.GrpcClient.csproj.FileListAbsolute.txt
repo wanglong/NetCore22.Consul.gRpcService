@@ -1,0 +1,16 @@
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.exe
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.csprojAssemblyReference.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.csproj.CoreCompileInputs.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.AssemblyInfoInputs.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.AssemblyInfo.cs
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.pdb
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.csproj.CopyComplete
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.deps.json
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.runtimeconfig.json
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.runtimeconfig.dev.json
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.pdb
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\obj\Debug\netcoreapp2.1\Consul.gRpcService.GrpcClient.pdb
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.GrpcClient\bin\Debug\netcoreapp2.1\appsettings.json

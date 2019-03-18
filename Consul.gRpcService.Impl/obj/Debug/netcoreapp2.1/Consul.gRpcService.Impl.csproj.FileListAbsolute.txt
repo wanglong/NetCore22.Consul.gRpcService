@@ -1,0 +1,14 @@
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Consul.gRpcService.Impl.deps.json
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Consul.gRpcService.Impl.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Consul.gRpcService.Impl.pdb
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Options.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Consul.gRpcService.Protocol.pdb
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Options.xml
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.csprojAssemblyReference.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.csproj.CoreCompileInputs.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.AssemblyInfoInputs.cache
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.AssemblyInfo.cs
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.csproj.CopyComplete
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.dll
+D:\AspNetCoreTest\NetCore22.Consul.gRpcService\Consul.gRpcService.Impl\obj\Debug\netcoreapp2.1\Consul.gRpcService.Impl.pdb
